@@ -1,6 +1,10 @@
 :root {
     --article-subtitle-font-size: 18px;
     --subarticle-subtitle-font-size: 16px;
+
+    --article-subtitle-web-font-size: 140%;
+    --subarticle-subtitle-web-font-size: 120%;
+    --article-text-web-font-size: 100%;
 }
 
 .article {
@@ -9,6 +13,10 @@
 
 .article__head-content {
     height: auto;
+}
+
+.article__title {
+    font-size: 20px;
 }
 
 .article__details {
@@ -49,7 +57,41 @@
     padding: 0 24px;
 }
 
-/* .content__code {
-    word-wrap: break-word;
-    word-spacing: wrap;
-} */
+@media only screen and (min-width: 600px) {
+    .article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .article__head-content {
+        margin-top: 16px;
+        width: 800px;
+    }
+
+    .article__title {
+        font-size: 200%;
+    }
+    
+    .article__details {
+        font-size: 100%;
+    }
+       
+    .content {
+        width: 800px;
+    }
+
+    .content__text {
+        font-size: 100%;
+    }
+
+    .content__subtitle {
+        font-size: 140%;
+    }
+
+    .content__subcontent-title {
+        font-size: 120%;
+    }
+}

@@ -9,4 +9,15 @@
 
 .header__img {
     height: 25px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 600px) {
+    .header {
+        height: 120px;
+    }
+
+    .header__img {
+        height: 60px;
+    }
 }
