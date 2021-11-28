@@ -1,0 +1,42 @@
+.post {
+    background-color: var(--dark-color);
+    width: 100%;
+}
+
+.post__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 102px;
+    padding: 16px;
+}
+
+.post__title {
+    font-size: var(--post-title-font-size);
+    font-weight: 600;
+}
+
+.post__theme {
+    font-size: var(--details-font-size);
+}
+
+.post__detail {
+    font-size: var(--details-font-size);
+}
+
+.post::after {
+    display: block;
+    background-color: var(--hub-color);
+    content: ' ';
+    color: var(--hub-color);
+    height: 6px;
+}
+
+.post__detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post__author {
+    font-weight: 600;
+}

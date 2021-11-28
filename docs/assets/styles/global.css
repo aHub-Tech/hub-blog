@@ -1,0 +1,31 @@
+:root {
+    --hub-color: #F83B91;
+    --dark-color: #13171F;
+    --dark-strong-color: #0A0E15;
+    --light-color: #FFFFFF;
+
+    --title-font-size: 20px;
+    --post-title-font-size: 16px;
+    --paragraph-font-size: 12px;
+    --details-font-size: 12px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: var(--light-color);
+    background-color: var(--dark-color);
+}
+
+pre {
+    background-color: var(--dark-strong-color);
+    padding: 16px;
+    white-space: pre-wrap;       
+    white-space: -moz-pre-wrap;  
+    white-space: -pre-wrap;      
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+
+pre code {
+    font-size: var(--paragraph-font-size);
+}

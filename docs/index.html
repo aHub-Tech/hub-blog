@@ -1,0 +1,11 @@
+---
+paginate: true
+---
+
+<ul class="content__list">
+    {% for post in paginator.posts %}
+    <li class="post"> {% include post.rhtml post=post %}</li>
+    {% endfor %}
+</ul>
+
+{% include paginator.rhtml %}

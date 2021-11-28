@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: var(--dark-strong-color);
+}
+
+.header__img {
+    height: 25px;
+}

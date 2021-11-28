@@ -1,5 +1,5 @@
 <h1 align="center">
-    Name of The Project
+    Blog da HUB
 </h1>
 <details>
   <summary>🇺🇸 English version</summary>
@@ -71,20 +71,23 @@
 
   <h2 id="objetivos" > 🎯 Objetivos </h2>
 
-  Uma breve descrição sobre o projeto e como ele funciona
+  Um simples blog comunitário para comunidade, publicações são feitas de maneira estatica por meio de _pull requests_.
 
   <h2 id="tecnologia"> 🛠 Tecnologias </h2>
 
   As ferramentas utilizadas na construção do projeto foram:
 
-  - [Name Tech](UrlForTheTech)
+  - [Ruby](https://www.ruby-lang.org)
+  - [Jekyll](https://jekyllrb.com/)
+  - [Highlightjs](https://highlightjs.org/)
 
   <h2 id="usos" > 👷 Como usar? </h2>
 
-  - Tecnologias necessárias para rodar localmente.
+  - É necessário possuir Ruby e jekyll previamente instalados.
 
   ```bash
-  # Comandos usados para iniciar o projeto.
+  $ make install
+  $ make serve
   ```
 
   <h2 id="contribuicao"> 🤝 Contribuições </h2>
@@ -94,9 +97,9 @@
 
   <h2 id="autor"> 💻 Autor </h2>
 
-  By Name ❤
+  By Name [Rodrigo Dornelles](https://github.com/RodrigoDornelles) & [Alex Nicolas](https://github.com/AlexNicolasCode) ❤
 
   <h2 id="licenca"> 📝 Licença </h2>
 
-  - [Arquivo de Licença](./LICENSE.md)
+  - [Arquivo de Licença](./LICENSE)
 </details>

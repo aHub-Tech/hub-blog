@@ -1,0 +1,3 @@
+docs/Gemfile -linguist-documentation
+docs/Gemfile linguist-detectable
+Makefile -linguist-detectable
