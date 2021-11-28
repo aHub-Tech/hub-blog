@@ -1,0 +1,36 @@
+
+title: HUB
+locale: pt-BR
+description: >-
+  Nosso blog comunitário que permite toda comunidade 
+  compartilhar suas idéias e conquistas.
+
+baseurl: "/"
+permalink: "/:slug/"
+paginate: 10
+paginate_path: "/page-:num/"
+
+defaults:
+  -
+    scope:
+      type: "pages"
+    values:
+      layout: "home"
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "article"
+
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+  - jekyll-github-metadata
+  - jekyll-default-layout
+  - jekyll-relative-links
+  - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jemoji

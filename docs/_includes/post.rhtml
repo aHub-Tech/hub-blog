@@ -1,0 +1,12 @@
+<a href="{{ include.post.url }}">    
+    <article class="post__content">
+        <p class="post__theme">{{ include.post.title }}</p>
+        <h2 class="post__title">{{ include.post.description }}</h2> 
+        <div class="post__detail">
+            <p class="post__published-at">{{ include.post.date | date: '%d/%m/%Y' }}</p>
+            {% if include.post.author %}
+            <p class="post__author">{{ include.post.author }}</p>
+            {% endif %}
+        </div>
+    </article>
+</a>

@@ -1,0 +1,13 @@
+<meta charset="UTF-8" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="/assets/styles/reset.css?{{ site.time | date: '%s%N' }}">
+<link rel="stylesheet" href="/assets/styles/global.css?{{ site.time | date: '%s%N' }}">
+{% if page.layout == 'article' %}
+<link rel="stylesheet" href="/assets/styles/article.css?{{ site.time | date: '%s%N' }}">
+{% elsif page.layout == 'home' %}
+<link rel="stylesheet" href="/assets/styles/home.css?{{ site.time | date: '%s%N' }}">
+{% endif %}
+<link rel="stylesheet" href="/assets/styles/header.css?{{ site.time | date: '%s%N' }}">
+<link rel="stylesheet" href="/assets/styles/improvements.css?{{ site.time | date: '%s%N' }}">
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>

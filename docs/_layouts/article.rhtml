@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ site.locale }}">
+  <head>
+    {% include assets.rhtml %}
+    {% seo %}
+  </head>
+  <body>
+    {% include header.rhtml %}
+    <main class="article">
+      <article class="article__head-content">
+          <h1 class="article__title">{{ page.title }}</h1> 
+          <article class="article__details">
+              <p class="article__published-at">{{ page.date | date: '%d/%m/%Y' }}</p>
+              {% if page.author %}
+              <p class="article__author">
+                  Escrito por: 
+                  <span class="article__author-name">{{ page.author }}</span>
+              </p>
+              {% endif %}
+          </article>
+      </article>
+      {{ content }}
+    </main>
+  </body>
+  {% include highlightjs.rhtml %}
+</html>
