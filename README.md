@@ -97,7 +97,7 @@
 
   <h2 id="autor"> 💻 Autor </h2>
 
-  By Name [Rodrigo Dornelles](https://github.com/RodrigoDornelles) & [Alex Nicolas](https://github.com/AlexNicolasCode) ❤
+  By Name [Rodrigo Dornelles](https://github.com/RodrigoDornelles) ❤
 
   <h2 id="licenca"> 📝 Licença </h2>
 
