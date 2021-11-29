@@ -41,12 +41,12 @@ description: Aprenda! em 5 passos, como fazer novas publicações.
 ```
 ### Veja as imagens ###
 
-| ![passo-2 ><](https://raw.githubusercontent.com/RodrigoDornelles/hub-blog/main/docs/assets/images/como-postar-1.png) | ![passo-2 ><](https://raw.githubusercontent.com/RodrigoDornelles/hub-blog/main/docs/assets/images/como-postar-2.png) |
-| :-: | :-: |
+![passo-2](https://raw.githubusercontent.com/RodrigoDornelles/hub-blog/main/docs/assets/images/como-postar-1.png)
+![passo-2](https://raw.githubusercontent.com/RodrigoDornelles/hub-blog/main/docs/assets/images/como-postar-2.png)
 
 ## Passo 3 ##
 
 Crie uma _pull request_, e aguarde ser aprovado.
 
-| ![passo-3 ><](https://raw.githubusercontent.com/RodrigoDornelles/hub-blog/main/docs/assets/images/como-postar-3.png) | ![passo-3 ><](https://raw.githubusercontent.com/RodrigoDornelles/hub-blog/main/docs/assets/images/como-postar-4.png) |
-| :-: | :-: |
+![passo-3](https://raw.githubusercontent.com/RodrigoDornelles/hub-blog/main/docs/assets/images/como-postar-3.png)
+![passo-3](https://raw.githubusercontent.com/RodrigoDornelles/hub-blog/main/docs/assets/images/como-postar-4.png)
