@@ -3,6 +3,12 @@
     width: 100%;
 }
 
+.post:hover {
+    background-color: var(--hub-color);
+    transition: ease-in-out 0.7s;
+    cursor: pointer;
+}
+
 .post__content {
     display: flex;
     flex-direction: column;
@@ -39,4 +45,65 @@
 
 .post__author {
     font-weight: 600;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.footer__pagination {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 232px;
+}
+
+.footer__page {
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    background-color: var(--dark-strong-color);
+    color: var(--light-color);
+}
+
+.footer__page:hover {
+    background-color: var(--hub-color);
+    transition: ease-in-out 0.7s;
+    cursor: pointer;
+}
+
+.footer__current-page {
+    background-color: var(--hub-color);
+}
+
+@media only screen and (min-width: 600px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 24px;
+        height: auto;
+    }
+
+    .content__list {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        list-style: none;
+        width: 664px;
+    }
+
+    .post__title {
+        font-size: 150%;
+    }
+
+    .post__theme {
+        font-size: 120%;
+    }
+
+    .post__detail {
+        margin-top: 16px;
+    }
 }
