@@ -19,8 +19,10 @@
               {% endif %}
           </article>
       </article>
-      {{ content }}
+      <article class="content">
+        {{ content }}
+      </article>
     </main>
+    {% include highlightjs.rhtml %}
   </body>
-  {% include highlightjs.rhtml %}
 </html>

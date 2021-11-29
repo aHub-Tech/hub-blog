@@ -40,3 +40,7 @@ textarea {
 ul {
   padding: 0;
 }
+
+.highlight pre  {
+  background: transparent!important;
+}
