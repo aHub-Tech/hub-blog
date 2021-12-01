@@ -4,7 +4,7 @@ title: Guia básico de markdown
 description: Linguagem de marcação muito útil, aprenda como utilizar markdown.
 ---
 
-Escrever em markdown pode parecer limitante, mas é pratico e rápido, para escrever algo formal ou caso for criativo ao misturar marcações pode fazer algo bem legal. aprenda o básico para se escrever textos em markdown.
+Escrever em markdown parece ser limitante, mas é prático e rápido, para documentar algo formal ou caso for criativo ao misturar marcações pode fazer algo bem legal. Aprenda o básico para se escrever textos em markdown.
 
 ## Ênfase ##
 
@@ -38,7 +38,7 @@ Você pode adicionar links de duas maneiras diferentes, tanto um nome para link 
 
 ## Imagens ##
 
-As imagens são semalhantes a adicionar links com nomes, única diferença é que você precisa adicionar o caracter exclamação antes `!`.
+As imagens são semalhantes a adicionar links com nomes, única diferença é que você precisa adicionar o símbolo exclamação antes `!`.
 
 * Veja a respectiva postagem para aprender a alinhar imagens em nosso blog: <https://blog.ahub.tech/posicionar-imagens/>
 
@@ -50,7 +50,7 @@ As imagens são semalhantes a adicionar links com nomes, única diferença é qu
 
 ## Listas ##
 
-Para criar listas você precisa adicionar o caracter asterisco `*` antes de cada termo.
+Para criar listas você precisa adicionar o símbolo asterisco `*` antes de cada termo.
 
 ```
  * Foo
@@ -78,7 +78,7 @@ Semelhante de como escrever a lista, para exibir um checkbox você deve usar con
 
 ## Tabelas ##
 
-Para construir tabelas é muito simples, as coluna são separadas pelo caracter _pipe_ `|`. Sendo que a primeira linha é identificada como legenda, segunda faz a configuração das celulas e apartir, cada linha individual da tabela.
+Para construir tabelas é muito simples, as coluna são separadas pelo caracter _pipe_ `|`. Sendo que a primeira linha é identificada como legenda, segunda faz a configuração das células e apartir, cada linha individual da tabela.
 
 * Utilize `:` a esquerda ou direita para um alinhar horizontalmente em um lado, e nos dois lados para centralizar no centido horizontal.
 
@@ -96,7 +96,7 @@ Para construir tabelas é muito simples, as coluna são separadas pelo caracter 
 
 ## Nível de texto ##
 
-Não vou exemplificar aqui para não quebrar o layout da pagina, mas é algo bem simples, o numero de _hashtags_ determina se é primario, secundário...
+Não vou exemplificar aqui para não quebrar o layout da pagina, mas é algo bem simples, o número de _hashtags_ determina se é primario, secundário...
 
 ```MARKDOWN
 # Texto nível 1 #
