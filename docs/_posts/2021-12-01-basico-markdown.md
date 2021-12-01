@@ -1,6 +1,6 @@
 ---
 author: RodrigoDornelles
-title: Como estilizar em markdown
+title: Guia básico de markdown
 description: Linguagem de marcação muito útil, aprenda como utilizar markdown.
 ---
 
