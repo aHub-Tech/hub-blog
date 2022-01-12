@@ -32,7 +32,7 @@ _Número de Horas * Preço de Horas + (Custo * 12)_
 Não tem erro. ok ;) Aos poucos voce vai saber metrificar melhor.
 *Lembrando que o custo seria por ano.
 
-## 8. Tenha mais de uma fonta de renda!
+## 8. Tenha mais de uma fontr de renda!
 Parece óbvio, mas busque tua saúde financeira. É muito importante que você  busque nao depender apenas do seu emprego. Tenha uma reserva de emergência, faça investimentos de baixo/médio e alto risco. Tudo de acordo com o que você quer fazer. O Seu "eu" de 2032 vai me agradecer por isso.
 
 ## 9. Seja Humilde
