@@ -1,7 +1,7 @@
 ---
 author: Em1dio
-title: Criando Relatorios CSV com VueJs/NuxtJs
-description: Como fazer  relatorios csv de maneira facil e rapida com Vuejs/Nuxtjs.
+title: Criar Conteúdo Vale a Pena?
+description: Como comecei a criar conteúdo.
 ---
 
 Texto postado no [dev.to](https://dev.to/em1dio)
